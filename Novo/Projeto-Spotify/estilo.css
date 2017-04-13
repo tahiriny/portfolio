@@ -1,0 +1,83 @@
+/*=========================== layout ===========================*/
+
+body{
+	background: url('imagens/fundo.jpg');
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden; /*esconder barra rolagem inferior*/
+	color: #000;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+#descricao{
+	color: #000;
+	padding: 25px 100px 30px 100px;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+}
+
+#logo{
+	width: 40px;
+	padding-top: 6px;
+	margin-right: 20px; 
+}
+
+#fundo-preto{
+	background: #000;
+	padding-bottom: 30px; 
+	color: #FFF;
+}
+
+.img-logo{
+	margin: 5px;
+}
+
+footer{
+	background: #000;
+	padding:  30px 0px;
+	color: #FF8000;
+	font-size: 15px;
+	text-align: center;
+}
+
+h1{
+	font-size: 80px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 20px;
+	text-shadow: 5px 5px 2px #151515;
+	padding-top: 90px;
+	color: #FFF;
+	text-align: center;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+	text-align: center;
+	margin-bottom: 20px;
+	text-shadow: 3px 3px 2px #424242;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #FE9A2E;
+	background: none;
+}
